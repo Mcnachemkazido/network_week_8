@@ -1,10 +1,4 @@
-output_string.py
-"""
-Output string formatting functions for network analysis.
-Each function formats a specific piece of network information.
-Students should implement each function to return the properly formatted string.
 
-"""
 
 
 def format_input_ip(ip_str):
@@ -19,7 +13,7 @@ def format_input_ip(ip_str):
     Example:
         format_input_ip("192.168.10.130") -> "Input IP: 192.168.10.130"
     """
-    return f"Input IP: {ip_str}\n"
+    return f"Input IP: {ip_str}"
 
 
 def format_subnet_mask(mask_str):
@@ -34,12 +28,12 @@ def format_subnet_mask(mask_str):
     Example:
         format_subnet_mask("255.255.255.192") -> "Subnet Mask: 255.255.255.192"
     """
-    return f"Subnet Mask: {mask_str}\n"
+    return f"Subnet Mask: {mask_str}"
 
 
 def format_classful_status(class_type):
  
-    return f"{class_type}\n"
+    return f"{class_type}"
 
 
 def format_network_address(network_address):
@@ -54,7 +48,7 @@ def format_network_address(network_address):
     Example:
         format_network_address("192.168.10.128") -> "Network Address: 192.168.10.128"
     """
-    return f"Network Address: {network_address}\n"
+    return f"Network Address: {network_address}"
 
 
 def format_broadcast_address(broadcast_address):
@@ -69,7 +63,7 @@ def format_broadcast_address(broadcast_address):
     Example:
         format_broadcast_address("192.168.10.191") -> "Broadcast Address: 192.168.10.191"
     """
-    return f"Broadcast Address: {broadcast_address}\n"
+    return f"Broadcast Address: {broadcast_address}"
 
 
 def format_num_hosts(num_hosts):
@@ -84,7 +78,7 @@ def format_num_hosts(num_hosts):
     Example:
         format_num_hosts(62) -> "Number of Hosts in this subnet: 62"
     """
-    return f"Number of Hosts in this subnet: {num_hosts}\n"
+    return f"Number of Hosts in this subnet: {num_hosts}"
 
 
 def format_cidr_mask(cidr):
@@ -99,6 +93,6 @@ def format_cidr_mask(cidr):
     Example:
         format_cidr_mask(26) -> "CIDR Mask: /26"
     """
-    return f"CIDR Mask: /{cidr}\n"
+    return f"CIDR Mask: /{cidr}"
 
 
